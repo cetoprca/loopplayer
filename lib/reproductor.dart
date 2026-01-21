@@ -59,6 +59,7 @@ class _AudioPlayerExplorerState extends State<AudioPlayerExplorer> {
   @override
   void initState() {
     super.initState();
+    placeholder = Image.network("https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.istockphoto.com%2Fes%2Ffotos%2Fimagen&ved=0CBYQjRxqFwoTCPjRnKvQm5IDFQAAAAAdAAAAABAI&opi=89978449");
     placeholderFuture = _loadPlaceholder();
     _loadPlaceHolder();
     _openPlayer();
